@@ -135,6 +135,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.preview.ubwc=0 \
     persist.vendor.camera.stats.test=0 \
+    sys.display-size=3840x2160 \
     persist.vendor.camera.depth.focus.cb=0 \
     persist.vendor.camera.isp.clock.optmz=0 \
     persist.vendor.camera.linkpreview=0 \
