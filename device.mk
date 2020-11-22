@@ -230,7 +230,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+#    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
