@@ -14,3 +14,11 @@ allow system_app sysfs_fpsinfo:file { open read getattr write };
 allow system_app sysfs_leds:dir search;
 allow system_app sysfs_leds:dir search;
 allow system_app sysfs_leds:file { open getattr write };
+allow system_app sysfs_touchboost:file { open read getattr write };
+
+
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read };
+allow system_app sysfs_battery_supply:file { open };
+allow system_app sysfs_battery_supply:file { getattr };
+
