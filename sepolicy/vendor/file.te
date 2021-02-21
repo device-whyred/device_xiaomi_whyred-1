@@ -12,6 +12,8 @@ type sysfs_fingerprint, fs_type, sysfs_type;
 type sysfs_touchpanel, fs_type, sysfs_type;
 type thermal_data_file, file_type, data_file_type;
 
+# USB Fastcharge
+type sysfs_usbcharge, sysfs_type, fs_type;
 # Fastcharge
 type sysfs_fcharge, sysfs_type, fs_type;
 
